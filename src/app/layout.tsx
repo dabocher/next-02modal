@@ -1,8 +1,10 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Racing_Sans_One, Inter, Oswald } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+export const racing = Racing_Sans_One({ subsets: ["latin"], weight: ["400"] });
+export const oswald = Oswald({ subsets: ["latin"], weight: ["400"] });
+export const inter = Inter({ subsets: ["latin"], weight: ["400"] });
 
 export const metadata: Metadata = {
   title: "Modal Example",

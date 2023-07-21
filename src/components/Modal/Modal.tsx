@@ -1,7 +1,4 @@
-import { Racing_Sans_One } from "next/font/google";
-import LoginForm from "../LoginForm/LoginForm";
-
-const racing = Racing_Sans_One({ subsets: ["latin"], weight: "400" });
+import LoginForm from "../Form/LoginForm/LoginForm";
 
 const Modal = () => {
   return (
