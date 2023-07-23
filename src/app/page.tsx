@@ -1,5 +1,3 @@
-import Modal from "@/components/Modal/Modal";
-import Image from "next/image";
 import Link from "next/link";
 
 const HomePage = ({
@@ -13,12 +11,11 @@ const HomePage = ({
     <main>
       <div className="flex flex-col items-center justify-center min-h-screen py-2">
         <Link
-          href="/?modal=true"
+          href="/login"
           className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
         >
           LOGIN
         </Link>
-        {showModal && <Modal />}
       </div>
     </main>
   );

@@ -1,4 +1,4 @@
-import LoginForm from "../Form/LoginForm/LoginForm";
+import LoginForm from "./src/components/LoginForm/LoginForm";
 
 const Modal = () => {
   return (

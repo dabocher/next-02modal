@@ -7,8 +7,7 @@ interface FormTitleProps {
 const FormTitle = ({ title }: FormTitleProps) => {
   return (
     <h1
-      className={`${font.className} w-full text-2xl text-center leading-12 font-medium text-gray-100 bg-gray-600  py-2 rounded-md uppercase sm:text-4xl`}
-      id="modal-title"
+      className={`${font.className} w-full text-5xl text-center leading-12 font-medium text-slate-100  py-2 rounded-md uppercase sm:text-6xl bg-slate-700`}
     >
       {title}
     </h1>
