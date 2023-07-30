@@ -1,11 +1,11 @@
 import LoginForm from "@/components/LoginForm/LoginForm";
-import ModalB from "@/components/Modal/ModalB";
+import Modal from "@/components/Modal/Modal";
 
 const LoginPage = () => {
   return (
-    <ModalB>
+    <Modal>
       <LoginForm />
-    </ModalB>
+    </Modal>
   );
 };
 

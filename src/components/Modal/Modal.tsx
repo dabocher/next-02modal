@@ -23,14 +23,16 @@ const ModalB = ({ children }: { children: ReactNode }) => {
   );
 
   return (
-    <div aria-labelledby="modal-title" aria-modal="true">
-      <div ref={overlay} className="modal" onClick={handleClick}>
-        <div className="flex justify-center items-center min-h-screen bg-black/20 ">
-          <div ref={wrapper} className="modal_wrapper">
-            <CloseIcon onDismiss={onDismiss} />
+    <div aria-labelledby="modal-title" aria-modal="true" className="modal">
+      <div
+        ref={overlay}
+        onClick={handleClick}
+        className="flex justify-center items-center min-h-screen bg-black/20 "
+      >
+        <div ref={wrapper} className="modal_wrapper">
+          <CloseIcon onDismiss={onDismiss} />
 
-            {children}
-          </div>
+          {children}
         </div>
       </div>
     </div>
